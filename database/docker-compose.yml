@@ -1,0 +1,10 @@
+version: '3.6'
+services:
+  mysqleasyapp:
+    image: mysql
+    environment:
+      MYSQL_DATABASE: "easyapp"
+      MYSQL_ROOT_PASSWORD: "root"
+    ports:
+      - "3306:3306"
+
